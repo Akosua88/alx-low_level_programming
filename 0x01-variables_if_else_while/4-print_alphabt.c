@@ -3,20 +3,18 @@
 #include <time.h>
 
 /**
- * main - Prints all single digit numbers of base
+ * main - Prints all the alphabet in lowercase
  *
+ *Return: Always (Success)
  */
 
 int main(void)
 
 {
-	char c, e, q
-
-	e = 'e';
-	q = 'q';
+	char c'
 
 	for (c = 'a'; c <= 'z'; c++)
-	if (c != e && c != q)
+	if (c != 'e' && c != 'q')
 	putchar(c);
 	putchar('\n');
 
