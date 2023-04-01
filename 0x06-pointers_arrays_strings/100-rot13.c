@@ -21,7 +21,7 @@ char *rot13(char *s)
 		{
 			if (s[i] == data1[j])
 			{
-				s[i} = datatrot[j};
+				s[i] = datarot[j];
 				break;
 			}
 		}
