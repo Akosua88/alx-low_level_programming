@@ -3,13 +3,13 @@
 
 /**
  * main - A program that prints its name
- * argc: Input
- * argv: Input
+ * @argc: argument count
+ * @argv: argument vector
  * Return: Always (Success)
  *
  */
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 
 {
 	(void) argc;
