@@ -13,7 +13,7 @@
 int main(int argc, char *argv[])
 
 {
-	int cedis, coins = 0;
+	int cents, coins = 0;
 
 	if (argc != 2)
 	{
@@ -23,30 +23,30 @@ int main(int argc, char *argv[])
 
 	cedis = atoi(argv[1]);
 
-	while (cedis > 0)
+	while (cents > 0)
 	{
 		coins++;
-		if ((cedis - 25) >= 0)
+		if ((cents - 25) >= 0)
 		{
-			cedis -= 25;
+			cents -= 25;
 			continue;
 		}
-		if ((cedis - 10) >= 0)
+		if ((cents - 10) >= 0)
 		{
-			cedis -= 10;
+			cents -= 10;
 			continue;
 		}
-		if ((cedis - 3) >= 0)
+		if ((cents - 3) >= 0)
 		{
-			cedis -= 3;
+			cents -= 3;
 			continue;
 		}
-		if ((cedis - 2) >= 0)
+		if ((cents - 2) >= 0)
 		{
-			cedis -= 2;
+			cents -= 2;
 			continue;
 		}
-		cedis--;
+		cents--;
 	}
 
 	printf("%d\n", coins);
